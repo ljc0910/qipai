@@ -140,7 +140,7 @@ export default {
     },
     initSocket(){
       // this.isReady = false
-      ws = new WebSocket('ws://119.3.235.132:8002');
+      ws = new WebSocket('ws://localhost:8002');
       var _this = this
       ws.onopen = function(e){
           _this.notice("连接服务器成功")
