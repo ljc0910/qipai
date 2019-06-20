@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "qipai serve",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jc",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.0.0"
+  }
+}
